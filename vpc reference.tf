@@ -1,7 +1,7 @@
 # create vpc
 resource "aws_vpc" "vpc" {
-  cidr_block              = 
-  instance_tenancy        = 
+  cidr_block              = aaws_default_subnet.default_az1
+  instance_tenancy        = "1230988jr"
   enable_dns_hostnames    = true
 
   tags      = {
